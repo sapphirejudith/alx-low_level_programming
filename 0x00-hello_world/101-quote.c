@@ -7,14 +7,12 @@
  */
 
 int main(void)
-
 {
+	int sout = 1;
 
-		int s = strlen("and that piece of art is useful\"  - Dora Korpar, 2015-10-19\n");
+	int leng = 58;
 
-			write(2,
-					 "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-						      	      s);
-				return (1);
+	write(sout,  "and that piece of art is useful\" - Dora Korpar, 2015-10-19", leng);
+					return (1);
 
 }
