@@ -2,13 +2,11 @@
 
 /**
  *
- *  * main - Entry point
+ *  * main - main block
  *
- *   *
+ *   * Return: 0
  *
- *    * Return: Always 0 (Success)
- *
- *     */
+ *    */
 
 int main(void)
 
@@ -19,4 +17,3 @@ int main(void)
 			return (0);
 
 }
-
